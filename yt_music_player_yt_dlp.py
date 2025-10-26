@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-"""
-yt_music_player_yt_dlp.py
-
-Stream audio from a YouTube video, display synced transcript/lyrics (if available).
-
-Requirements:
-    pip install yt-dlp youtube-transcript-api python-vlc
-    VLC must be installed on your system (libvlc accessible).
-
-Usage:
-    python yt_music_player_yt_dlp.py
-    Paste a YouTube URL or video id when prompted.
-"""
-
 import time
 import threading
 import sys
